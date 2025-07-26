@@ -1,0 +1,13 @@
+/* App Component Styles */
+:host {
+  display: block;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+/* Main content area */
+.main-content {
+  min-height: calc(100vh - 70px); /* Account for navbar height */
+  display: flex;
+  flex-direction: column;
+}
